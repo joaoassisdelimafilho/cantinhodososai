@@ -22,12 +22,12 @@ const CONFIG = {
 
     // --- 3. HORÁRIOS DE FUNCIONAMENTO ---
     horariosFuncionamento: [
-        { dia: 0, abre: "01:00", fecha: "23:00" }, // Domingo
-        { dia: 2, abre: "01:00", fecha: "23:00" }, // Terça-feira
-        { dia: 3, abre: "01:00", fecha: "23:00" }, // Quarta-feira
-        { dia: 4, abre: "01:00", fecha: "23:00" }, // Quinta-feira
-        { dia: 5, abre: "01:00", fecha: "23:00" }, // Sexta-feira
-        { dia: 6, abre: "01:00", fecha: "23:00" } // Sábado
+        { dia: 0, abre: "17:00", fecha: "23:00" }, // Domingo
+        { dia: 2, abre: "17:00", fecha: "23:00" }, // Terça-feira
+        { dia: 3, abre: "17:00", fecha: "23:00" }, // Quarta-feira
+        { dia: 4, abre: "17:00", fecha: "23:00" }, // Quinta-feira
+        { dia: 5, abre: "17:00", fecha: "23:00" }, // Sexta-feira
+        { dia: 6, abre: "17:00", fecha: "23:00" } // Sábado
     ],
 
     // --- 4. CARDÁPIO / MENU ---
