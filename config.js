@@ -14,7 +14,7 @@ const CONFIG = {
     nomeLoja: "Cantinho do Sosai",
     subtitulo: "O Sabor que Conquista!",
     urlImagemCapa: "https://i.postimg.cc/44LYxx5K/Design-sem-nome-1.png",
-    urlLogoCircular: "https://i.postimg.cc/Px4BFGT8/Isabela-Lanches.png",
+    urlLogoCircular: "https://i.postimg.cc/brg2kcMj/file-00000000735c71f59ab1d21fbaca4d05-1.png",
 
     // --- 2. CONTATO E ENTREGA ---
     telefoneWhatsapp: "5519995027183",
@@ -73,7 +73,7 @@ const CONFIG = {
                 { nome: "20 - Romeu e Julieta", descricao: "Romeu e Julieta.", preco: 9.00, imagem: "" },
                 { nome: "21 - Medalão Frango", descricao: "Medalão de Frango.", preco: 9.00, imagem: "" },
                 { nome: "22 - Medalão de Mandioca", descricao: "Medalão de Mandioca.", preco: 9.00, imagem: "" },
-                { nome: "27 - Pão de Alho", descricao: "Pão de alho.", preco: 5.00, imagem: "" }
+                { nome: "23 - Pão de Alho", descricao: "Pão de alho.", preco: 5.00, imagem: "" }
             ]
 }],
 
