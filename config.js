@@ -13,11 +13,11 @@ const CONFIG = {
     // --- 1. INFORMAÇÕES GERAIS DA LOJA ---
     nomeLoja: "Cantinho do Sosai",
     subtitulo: "O Sabor que Conquista!",
-    urlImagemCapa: "https://i.postimg.cc/44LYxx5K/Design-sem-nome-1.png",
+    urlImagemCapa: "https://i.postimg.cc/Vkgrh8LR/Cantinho-do-sosai.png",
     urlLogoCircular: "https://i.postimg.cc/brg2kcMj/file-00000000735c71f59ab1d21fbaca4d05-1.png",
 
     // --- 2. CONTATO E ENTREGA ---
-    telefoneWhatsapp: "5519995027183",
+    telefoneWhatsapp: "5519986098916",
     taxaEntrega: 5.00,
 
     // --- 3. HORÁRIOS DE FUNCIONAMENTO ---
@@ -83,7 +83,7 @@ const CONFIG = {
         horario: "Atendimento: Terça a Domingo, das 18:00 às 23:00",
         instagram: "https://www.instagram.com/seu_usuario",
         facebook: "https://www.facebook.com/sua_pagina",
-        whatsapp: `https://api.whatsapp.com/send?phone=${"5519995027183"}`,
+        whatsapp: `https://api.whatsapp.com/send?phone=${"5519986098916"}`,
         chavePix: "seu-email-ou-telefone@pix.com.br"
     }
 };
