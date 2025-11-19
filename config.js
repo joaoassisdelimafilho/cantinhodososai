@@ -27,55 +27,70 @@ const CONFIG = {
         { dia: 3, abre: "17:00", fecha: "23:00" }, // Quarta-feira
         { dia: 4, abre: "17:00", fecha: "23:00" }, // Quinta-feira
         { dia: 5, abre: "17:00", fecha: "23:00" }, // Sexta-feira
-        { dia: 6, abre: "17:00", fecha: "23:00" } // Sábado
+        { dia: 6, abre: "17:00", fecha: "23:00" }  // Sábado
     ],
 
     // --- 4. CARDÁPIO / MENU ---
     // Para cada item, adicione o campo "imagem" com o link da sua foto.
     cardapio: [
         {
-            categoria: "Choripan",
+            categoria: "Espetos",
             itens: [
-                { nome: "01 - Linguiça Bovina", descricao: "Linguiça Bovina, Catupiry, Mussarela, Alface e Vinagrete.", preco: 24.90, imagem: "" },
-                { nome: "02 - Linguiça Toscana", descricao: "Linguiça Toscana, Catupiry, Mussarela, Alface e Vinagrete.", preco: 22.90, imagem: "" },
-                { nome: "03 - Linguiça Suína", descricao: "Linguiça Suína, Catupiry, Mussarela, alface e Vinagrete.", preco: 22.90, imagem: "" }
+                { nome: "Carne", descricao: "", preco: 7.00, imagem: "" },
+                { nome: "Capa de Filé", descricao: "", preco: 9.00, imagem: "" },
+                { nome: "Panceta", descricao: "", preco: 6.00, imagem: "" },
+                { nome: "Pernil", descricao: "", preco: 6.00, imagem: "" },
+                { nome: "Frango", descricao: "", preco: 6.00, imagem: "" },
+                { nome: "Coração de Frango", descricao: "", preco: 9.00, imagem: "" },
+                { nome: "Cupim com Queijo", descricao: "", preco: 10.00, imagem: "" },
+                { nome: "Kafta", descricao: "", preco: 7.00, imagem: "" },
+                { nome: "Kafta com Queijo", descricao: "", preco: 8.00, imagem: "" },
+                { nome: "Romeu e Julieta com Bacon", descricao: "", preco: 10.00, imagem: "" },
+                { nome: "Medalhão de Frango", descricao: "", preco: 10.00, imagem: "" },
+                { nome: "Medalhão de Queijo", descricao: "", preco: 10.00, imagem: "" },
+                { nome: "Queijo Coalho", descricao: "", preco: 9.00, imagem: "" },
+                { nome: "Pão de Alho", descricao: "", preco: 5.00, imagem: "" }
             ]
         },
         {
-            categoria: "Hambúrguer",
+            categoria: "Lanches",
             itens: [
-                { nome: "04 - Burguer Carne", descricao: "Hambúrguer de carne Artesanal, cebola roxa, queijo prato, Bacon e alface.", preco: 24.99, imagem: "" },
-                { nome: "05 - Burguer Panceta", descricao: "Hambúrguer de Panceta Artesanal, cebola roxa,queijo prato, bacon e alface.", preco: 22.90, imagem: "" }
+                { nome: "Lanche", descricao: "Consulte os sabores disponíveis.", preco: 15.00, imagem: "" }
             ]
         },
         {
-            categoria: "Bauru",
+            categoria: "Cervejas",
             itens: [
-                { nome: "06 - Bauru Contra Filé", descricao: "Contra Filé, queijo prato, batata palha, alface e cebola roxa.", preco: 32.90, imagem: "" },
-                { nome: "07 - Bauru de Picanha", descricao: "Picanha, queijo prato, batata palha, alface e cebola roxa.", preco: 39.99, imagem: "" },
-                { nome: "08 - Bauru de Frango", descricao: "Filé de Frango,queijo prato, batata palha, alface e cebola roxa.", preco: 28.99, imagem: "" },
-                { nome: "09 - Bauru de Suíno", descricao: "Lombo Suíno, queijo prato, batata palha, alface e cebola roxa.", preco: 28.99, imagem: "" }
+                { nome: "Antártica Boa", descricao: "Lata", preco: 7.00, imagem: "" },
+                { nome: "Amstel", descricao: "Lata", preco: 7.00, imagem: "" },
+                { nome: "Antártica Original", descricao: "Lata", preco: 8.00, imagem: "" },
+                { nome: "Heineken", descricao: "Lata", preco: 10.00, imagem: "" }
             ]
         },
         {
-            categoria: "Espeto",
+            categoria: "Sucos Naturais",
             itens: [
-                { nome: "10 - Espeto de Carne", descricao: "Carne.", preco: 7.00, imagem: "" },
-                { nome: "11 - Espeto de Costela", descricao: "Costela.", preco: 7.00, imagem: "" },
-                { nome: "12 - Espeto de Panceta", descricao: "Panceta.", preco: 6.00, imagem: "" },
-                { nome: "13 - Espeto de Frango", descricao: "Frango.", preco: 6.00, imagem: "" },
-                { nome: "14 - Espeto de Coração de Frango", descricao: "Coração de Frango.", preco: 9.00, imagem: "" },
-                { nome: "15 - Espeto de Pernil", descricao: "Pernil.", preco: 6.00, imagem: "" },
-                { nome: "16 - Espeto de Capa do Contra", descricao: "Capa do Contra.", preco: 9.00, imagem: "" },
-                { nome: "17 - Espeto de Linguiça", descricao: "Linguiça.", preco: 7.00, imagem: "" },
-                { nome: "18 - Espeto de Kafta", descricao: "Kafta.", preco: 7.00, imagem: "" },
-                { nome: "19 - Espeto de Kafta com queijo coalho ", descricao: "Kafta com queijo coalho.", preco: 8.00, imagem: "" },
-                { nome: "20 - Romeu e Julieta", descricao: "Romeu e Julieta.", preco: 9.00, imagem: "" },
-                { nome: "21 - Medalão Frango", descricao: "Medalão de Frango.", preco: 9.00, imagem: "" },
-                { nome: "22 - Medalão de Mandioca", descricao: "Medalão de Mandioca.", preco: 9.00, imagem: "" },
-                { nome: "23 - Pão de Alho", descricao: "Pão de alho.", preco: 5.00, imagem: "" }
+                { nome: "Laranja", descricao: "", preco: 6.00, imagem: "" },
+                { nome: "Abacaxi", descricao: "", preco: 6.00, imagem: "" },
+                { nome: "Acerola", descricao: "", preco: 6.00, imagem: "" }
             ]
-}],
+        },
+        {
+            categoria: "Refrigerantes e Bebidas",
+            itens: [
+                { nome: "H2O Limão/Limoneto", descricao: "", preco: 6.00, imagem: "" },
+                { nome: "Coca-Cola", descricao: "Lata", preco: 5.00, imagem: "" },
+                { nome: "Coca-Cola Zero", descricao: "Lata", preco: 5.00, imagem: "" },
+                { nome: "Sprite", descricao: "Lata", preco: 5.00, imagem: "" },
+                { nome: "Fanta", descricao: "Lata", preco: 5.00, imagem: "" },
+                { nome: "Itubaína", descricao: "355ml", preco: 5.00, imagem: "" },
+                { nome: "Água Sem Gás", descricao: "", preco: 3.00, imagem: "" },
+                { nome: "Água Com Gás", descricao: "", preco: 5.00, imagem: "" },
+                { nome: "Coca-Cola 2L", descricao: "", preco: 10.00, imagem: "" },
+                { nome: "Guaraná Antártica 2L", descricao: "", preco: 10.00, imagem: "" }
+            ]
+        }
+    ],
 
     // --- 5. INFORMAÇÕES DE CONTATO E REDES SOCIAIS ---
     informacoesLoja: {
@@ -87,4 +102,3 @@ const CONFIG = {
         chavePix: "seu-email-ou-telefone@pix.com.br"
     }
 };
-
