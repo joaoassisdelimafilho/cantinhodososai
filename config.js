@@ -38,6 +38,9 @@ const CONFIG = {
             itens: [
                 { nome: "Carne", descricao: "", preco: 7.00, imagem: "" },
                 { nome: "Capa de Filé", descricao: "", preco: 9.00, imagem: "" },
+                { nome: "Tulípa", descricao: "", preco: 8.00, imagem: "" },
+                { nome: "Tender", descricao: "", preco: 8.00, imagem: "" },
+                { nome: "Costelinha", descricao: "", preco: 9.00, imagem: "" },
                 { nome: "Panceta", descricao: "", preco: 6.00, imagem: "" },
                 { nome: "Pernil", descricao: "", preco: 6.00, imagem: "" },
                 { nome: "Frango", descricao: "", preco: 6.00, imagem: "" },
@@ -55,7 +58,7 @@ const CONFIG = {
         {
             categoria: "Lanches",
             itens: [
-                { nome: "Lanche", descricao: "Consulte os sabores disponíveis.", preco: 15.00, imagem: "" }
+                { nome: "X Burguer Carne Artesabal", descricao: "Hamburguer Artesanal, Queijo Prato, Bacon, Tomate, Alface e Catupiry .", preco: 21.99, imagem: "" }
             ]
         },
         {
