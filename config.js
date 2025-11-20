@@ -11,10 +11,10 @@
 // ==================================================================================
 const CONFIG = {
     // --- 1. INFORMAÇÕES GERAIS DA LOJA ---
-    nomeLoja: "Cantinho do Sosai",
+    nomeLoja: "Cantinho do Sossai",
     subtitulo: "O Sabor que Conquista!",
     urlImagemCapa: "https://i.postimg.cc/Vkgrh8LR/Cantinho-do-sosai.png",
-    urlLogoCircular: "https://i.postimg.cc/brg2kcMj/file-00000000735c71f59ab1d21fbaca4d05-1.png",
+    urlLogoCircular: "https://i.postimg.cc/Vv70J6MF/file-00000000f0d8720e9ce344c6388306f2.png",
 
     // --- 2. CONTATO E ENTREGA ---
     telefoneWhatsapp: "5519986098916",
@@ -40,6 +40,7 @@ const CONFIG = {
                 { nome: "Capa de Filé", descricao: "", preco: 9.00, imagem: "" },
                 { nome: "Tulípa", descricao: "", preco: 8.00, imagem: "" },
                 { nome: "Tender", descricao: "", preco: 8.00, imagem: "" },
+                { nome: "Copa Lombo", descricao: "", preco: 8.00, imagem: "" },
                 { nome: "Costelinha", descricao: "", preco: 9.00, imagem: "" },
                 { nome: "Panceta", descricao: "", preco: 6.00, imagem: "" },
                 { nome: "Pernil", descricao: "", preco: 6.00, imagem: "" },
