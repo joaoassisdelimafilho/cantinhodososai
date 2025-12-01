@@ -18,7 +18,7 @@ const CONFIG = {
 
     // --- 2. CONTATO E ENTREGA ---
     telefoneWhatsapp: "5519986098916",
-    taxaEntrega: 5.00,
+    taxaEntrega: 6.00,
 
     // --- 3. HORÁRIOS DE FUNCIONAMENTO ---
     horariosFuncionamento: [
