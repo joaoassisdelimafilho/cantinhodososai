@@ -22,6 +22,7 @@ const CONFIG = {
 
     // --- 3. HORÁRIOS DE FUNCIONAMENTO ---
     horariosFuncionamento: [
+        { dia: 0, abre: "17:00", fecha: "23:00" }, // Domingo
         { dia: 1, abre: "17:00", fecha: "23:00" }, // Domingo
         { dia: 3, abre: "17:00", fecha: "23:00" }, // Quarta-feira
         { dia: 4, abre: "17:00", fecha: "23:00" }, // Quinta-feira
